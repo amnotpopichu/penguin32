@@ -2745,197 +2745,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda:CL31A106KBHNNNE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL31A106KBHNNNE"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C1206"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A106KBHNNNE_10uF-106-10-50V_C13585.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10uF (106) ±10% 50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SAMSUNG(三星)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL31A106KBHNNNE"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C13585"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CL31A106KBHNNNE_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda:ESP32-S3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6325,6 +6134,12 @@
 		(uuid "659f38da-b7aa-4465-9b77-c6f17c8c4897")
 	)
 	(junction
+		(at 29.21 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b3ba14a-da78-4ce8-8272-32f2df5f82d4")
+	)
+	(junction
 		(at 33.02 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6341,12 +6156,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90528eb7-33a4-45ec-9480-3eaf76bf5880")
-	)
-	(junction
-		(at 29.21 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9609781f-c838-4d8b-9728-5bed41ebcc77")
 	)
 	(junction
 		(at 182.88 43.18)
@@ -6409,12 +6218,6 @@
 		(uuid "cdc1842b-21e5-499b-ab49-c33eb49a0204")
 	)
 	(junction
-		(at 29.21 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf73ae41-77d3-431c-b1e2-276a38c13aa8")
-	)
-	(junction
 		(at 115.57 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6461,6 +6264,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6aa5e20-08a2-45fe-82b9-c4adaf8362dc")
+	)
+	(junction
+		(at 29.21 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f92d5801-74af-46e8-9e1a-2df1fca8f203")
 	)
 	(no_connect
 		(at 182.88 54.61)
@@ -6596,6 +6405,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 110.49) (xy 26.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c9bfce-1c81-4c96-bb58-acdd1a66f1d7")
+	)
+	(wire
+		(pts
 			(xy 99.06 35.56) (xy 102.87 35.56)
 		)
 		(stroke
@@ -6683,6 +6502,16 @@
 			(type default)
 		)
 		(uuid "2144f92a-e45e-49bd-abda-c71fb64a7719")
+	)
+	(wire
+		(pts
+			(xy 26.67 120.65) (xy 29.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2187a3d8-8e05-4e74-ba9e-a83b8c7abbe3")
 	)
 	(wire
 		(pts
@@ -6986,16 +6815,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 104.14) (xy 40.64 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5712d427-a4f3-41a6-92c6-c7cb0917417e")
-	)
-	(wire
-		(pts
 			(xy 29.21 120.65) (xy 29.21 124.46)
 		)
 		(stroke
@@ -7056,6 +6875,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 110.49) (xy 29.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6417c0f7-0c85-4801-b7ad-e9f58b17bcf5")
+	)
+	(wire
+		(pts
 			(xy 229.87 43.18) (xy 229.87 46.99)
 		)
 		(stroke
@@ -7093,16 +6922,6 @@
 			(type default)
 		)
 		(uuid "69305ba3-9d5a-496d-8d58-782de640ae6d")
-	)
-	(wire
-		(pts
-			(xy 29.21 110.49) (xy 29.21 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e3eb126-904f-4452-ab26-ac31b7f3c205")
 	)
 	(wire
 		(pts
@@ -7383,6 +7202,16 @@
 			(type default)
 		)
 		(uuid "9c4b5988-8a9d-4eda-bb79-a6fffd584ce1")
+	)
+	(wire
+		(pts
+			(xy 40.64 104.14) (xy 40.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f68abc7-c7d7-4b33-9152-948a5fc69cd0")
 	)
 	(wire
 		(pts
@@ -7734,6 +7563,16 @@
 		)
 		(uuid "f8a3e17b-2a6c-4e51-8a62-7a5cbdd3183e")
 	)
+	(label "VIN"
+		(at 256.54 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02798555-fe1a-46db-83e9-7d3d191961b3")
+	)
 	(label "CHIP_EN"
 		(at 46.99 71.12 0)
 		(effects
@@ -7744,15 +7583,15 @@
 		)
 		(uuid "14aa8909-497f-4c85-80f6-ee83ab9ad89f")
 	)
-	(label "VIN"
-		(at 256.54 139.7 0)
+	(label "U0TXD"
+		(at 256.54 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1a8b3c2e-aa5d-4b6a-9796-4fc9d6c12b15")
+		(uuid "1ea4aa23-def8-43f6-8063-fe52db554682")
 	)
 	(label "VIN"
 		(at 86.36 152.4 180)
@@ -7784,25 +7623,15 @@
 		)
 		(uuid "a6b9fb2e-0372-4bd6-9124-67126ddc35a2")
 	)
-	(label "U0TXD"
-		(at 256.54 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2b1ecf4-399a-4594-a34d-6086aa6b311d")
-	)
 	(label "U0RXD"
-		(at 256.54 144.78 0)
+		(at 256.54 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b9189002-2b72-4288-b968-488c863258e0")
+		(uuid "cc326d8c-0350-4532-b08b-2def95ed921f")
 	)
 	(label "U0TXD"
 		(at 200.66 59.69 0)
@@ -7816,7 +7645,7 @@
 	)
 	(global_label "GPIO34"
 		(shape input)
-		(at 248.92 119.38 0)
+		(at 248.92 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7826,7 +7655,7 @@
 		)
 		(uuid "0398d738-78da-434c-9df1-a7982db2869a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 119.38 0)
+			(at 258.7995 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7840,7 +7669,7 @@
 	)
 	(global_label "GPIO37"
 		(shape input)
-		(at 248.92 111.76 0)
+		(at 248.92 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7850,7 +7679,7 @@
 		)
 		(uuid "03eff464-d577-405b-aea7-901882ca784d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 111.76 0)
+			(at 258.7995 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7864,7 +7693,7 @@
 	)
 	(global_label "GPIO40"
 		(shape input)
-		(at 248.92 104.14 0)
+		(at 248.92 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7874,7 +7703,7 @@
 		)
 		(uuid "118d9196-87a1-4ff1-b377-4ab0b49393f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 104.14 0)
+			(at 258.7995 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7912,7 +7741,7 @@
 	)
 	(global_label "GPIO33"
 		(shape input)
-		(at 248.92 121.92 0)
+		(at 248.92 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7922,31 +7751,7 @@
 		)
 		(uuid "1fa91560-2b4b-4858-8710-0ee41a1c70b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO17"
-		(shape input)
-		(at 256.54 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25e4d195-9543-4a4b-af09-09f4e7fc9e91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.4195 172.72 0)
+			(at 258.7995 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8006,6 +7811,30 @@
 			)
 		)
 	)
+	(global_label "GPIO17"
+		(shape input)
+		(at 256.54 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d2eba92-211f-42a1-a6e1-4d96ced2315d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.4195 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO40"
 		(shape input)
 		(at 182.88 69.85 0)
@@ -8056,7 +7885,7 @@
 	)
 	(global_label "GPIO39"
 		(shape input)
-		(at 248.92 106.68 0)
+		(at 248.92 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8066,7 +7895,7 @@
 		)
 		(uuid "516319e2-9d85-428e-8977-11acae80b5c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 106.68 0)
+			(at 258.7995 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8078,7 +7907,7 @@
 			)
 		)
 	)
-	(global_label "GPIO13"
+	(global_label "GPIO9"
 		(shape input)
 		(at 248.92 91.44 0)
 		(fields_autoplaced yes)
@@ -8088,9 +7917,9 @@
 			)
 			(justify left)
 		)
-		(uuid "52200945-2386-40e1-a2b5-28f8ba92c488")
+		(uuid "557f0adf-bfcb-4fa5-95e7-c31cd20d58e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 91.44 0)
+			(at 257.59 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,7 +7981,7 @@
 	)
 	(global_label "GPIO35"
 		(shape input)
-		(at 248.92 116.84 0)
+		(at 248.92 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8162,7 +7991,7 @@
 		)
 		(uuid "686868e0-b366-41b0-b5cf-08772171ebf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 116.84 0)
+			(at 258.7995 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8195,30 +8024,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO9"
-		(shape input)
-		(at 248.92 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c316a6f-9741-4e72-aaf3-4c294a2fb2ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.59 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8414,6 +8219,78 @@
 			)
 		)
 	)
+	(global_label "GPIO11"
+		(shape input)
+		(at 248.92 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b83f517-bf56-481d-810a-bd7743602c2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.7995 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO10"
+		(shape input)
+		(at 248.92 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8da91ed2-45b6-45bc-a185-2bb380f746f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.7995 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO12"
+		(shape input)
+		(at 248.92 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91fad3c0-2abf-4f98-82b2-bd1ac7a80106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.7995 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO2"
 		(shape input)
 		(at 139.7 57.15 180)
@@ -8440,7 +8317,7 @@
 	)
 	(global_label "GPIO36"
 		(shape input)
-		(at 248.92 114.3 0)
+		(at 248.92 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8450,7 +8327,7 @@
 		)
 		(uuid "959a3f9c-53ea-4338-8872-0143bddf101b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 114.3 0)
+			(at 258.7995 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,30 +8435,6 @@
 			)
 		)
 	)
-	(global_label "GPIO10"
-		(shape input)
-		(at 248.92 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bf9086c-16d2-4a2d-a96a-e68aabf4c66e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO36"
 		(shape input)
 		(at 182.88 80.01 0)
@@ -8678,6 +8531,30 @@
 			)
 		)
 	)
+	(global_label "GPIO18"
+		(shape input)
+		(at 256.54 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afffbfcc-76da-48ba-8cd4-e924d06d8646")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.4195 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO9"
 		(shape input)
 		(at 139.7 74.93 180)
@@ -8699,6 +8576,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO14"
+		(shape input)
+		(at 256.54 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b27ad9e1-15a5-43d4-9069-c0eba39d974a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.4195 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8869,30 +8770,6 @@
 			)
 		)
 	)
-	(global_label "GPIO18"
-		(shape input)
-		(at 256.54 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf0dfee7-5cc2-43ed-90dd-aaa170d3f6d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.4195 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USB_DN"
 		(shape input)
 		(at 139.7 102.87 180)
@@ -8914,54 +8791,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO11"
-		(shape input)
-		(at 248.92 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5cda026-530a-4533-8571-3094c1a8aeed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO12"
-		(shape input)
-		(at 248.92 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d67daac5-6235-40b7-9a7e-ee805c1c1fd6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -9037,9 +8866,9 @@
 			)
 		)
 	)
-	(global_label "GPIO14"
+	(global_label "GPIO13"
 		(shape input)
-		(at 256.54 167.64 0)
+		(at 248.92 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9047,9 +8876,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e48c852b-b48e-493f-9dc4-45db9ef79b16")
+		(uuid "e423698c-91f8-4e40-9df1-4ad77cf16bac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.4195 167.64 0)
+			(at 258.7995 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9087,7 +8916,7 @@
 	)
 	(global_label "GPIO38"
 		(shape input)
-		(at 248.92 109.22 0)
+		(at 248.92 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9097,7 +8926,7 @@
 		)
 		(uuid "fcee6e52-952a-4880-a749-fca94a9a9abe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7995 109.22 0)
+			(at 258.7995 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13897,7 +13726,7 @@
 	)
 	(symbol
 		(lib_id "easyeda:SMBJ3.3A_C19077556")
-		(at 29.21 115.57 90)
+		(at 26.67 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13905,10 +13734,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81062b43-dc26-4ddc-bfee-1bec42aa67dd")
 		(property "Reference" "D3"
-			(at 33.02 114.8099 90)
+			(at 30.48 114.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13919,7 +13747,7 @@
 			)
 		)
 		(property "Value" "SMBJ3.3A_C19077556"
-			(at 33.02 117.3499 90)
+			(at 16.51 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13930,7 +13758,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 36.83 115.57 0)
+			(at 34.29 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +13769,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19077556.pdf"
-			(at 39.37 115.57 0)
+			(at 36.83 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13952,7 +13780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 115.57 0)
+			(at 26.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13963,7 +13791,7 @@
 			)
 		)
 		(property "Manufacturer" "R+O(宏嘉诚)"
-			(at 41.91 115.57 0)
+			(at 39.37 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13974,7 +13802,7 @@
 			)
 		)
 		(property "MPN" "SMBJ3.3A"
-			(at 44.45 115.57 0)
+			(at 41.91 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13985,7 +13813,7 @@
 			)
 		)
 		(property "LCSC Part" "C19077556"
-			(at 46.99 115.57 0)
+			(at 44.45 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16733,122 +16561,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda:CL31A106KBHNNNE")
-		(at 40.64 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf051cdb-da0e-408e-81fc-9699faad3f1e")
-		(property "Reference" "C22"
-			(at 44.45 115.5699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CL31A106KBHNNNE"
-			(at 44.45 118.1099 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C1206"
-			(at 33.02 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A106KBHNNNE_10uF-106-10-50V_C13585.html"
-			(at 30.48 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF (106) ±10% 50V"
-			(at 40.64 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 27.94 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL31A106KBHNNNE"
-			(at 25.4 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C13585"
-			(at 22.86 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c2fc39c-691d-4332-bd9f-43b897081d07")
-		)
-		(pin "2"
-			(uuid "201860c7-e9bd-465e-84d1-207f8da50d35")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda:CL05B104KO5NNNC")
 		(at 198.12 116.84 90)
 		(unit 1)
@@ -18356,6 +18068,121 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:CL10A106MA8NRNC")
+		(at 40.64 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffffff4e-452c-4bbf-9246-6914f7845c2f")
+		(property "Reference" "C19"
+			(at 44.45 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CL10A106MA8NRNC"
+			(at 44.45 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 33.02 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106MA8NRNC_10uF-106-20-25V_C96446.html"
+			(at 30.48 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 27.94 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
+			(at 25.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
+			(at 22.86 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d7796eb9-8f20-4379-8ce0-da8c1b9adbe8")
+		)
+		(pin "1"
+			(uuid "9f233992-75ab-4ea9-b36e-b3aa4b1d23fc")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "C19")
 					(unit 1)
 				)
 			)
