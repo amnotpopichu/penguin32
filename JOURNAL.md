@@ -10,6 +10,14 @@ I rerouted everything three times. i wish iw as joking. anywyas some of the more
 ![image name](images/front_final.png)
 ![image name](images/pcb_final.png)
 **Total time spent: 2.5 hours**
+---
+# Jul 12th: rewire
+I rerouted everything three times. i wish iw as joking. anywyas some of the more techical and fun stuff. 1. rerouted because i changed some stuff where i was deciding how my headers should work (to optimize for placement) 2. changed because i optimized BOM. i had something that needed 2k capacitaors minmium order so i changed it to something else, and then in the process rerouted. 3. i just wasnt getting it done. i think with my past few attempts it just wasnt working, so i rerouted everything. All in all, i think there are a few things i learned 1. i should use a second plane next time, ie a 3v3 pwr plane instead of manually routing everything 2. sometimes i need to mess with footprints. i had to change some of the thermal pins to actaully route to ground for it to work, and then also had to learn about net ties (to stop kicad from yelling at me). didnt solve it, so i also learned about 4. ignoring drc when you are 100% sure you are right, and adding a comment. Also added some silkscreen stuff With a penguin and a cool hatck club flag.
+
+![image name](images/back_final.png)
+![image name](images/front_final.png)
+![image name](images/pcb_final.png)
+**Total time spent: 2.5 hours**
 # Jul 11th: pcb wiring
 i wish i was joking im writing this journal while im not even done with my wiring (half way through this session). the diff pair wiring has taken me AN HOUR. im so serious. i cannot for some reason get the width to match up and it took me >1 hour to actaully get it to work. genuienly i keep trying to fix this width and then having to fix the length and then over and over and over again. after wayy to long i have fully gotten what i believe to be as best possible solution, with the length delta to be <0.5mmish. time to move onto actaully doing ground pours! in total i logged 140 minutes but im going to self deflate to 105 because there were times i wasn't as productive enough + spending a full hour on diff pairs is ridiculous (even tho it took me that long). anyways the second hour was spent working on routing the thing and moving stuff around becasue i HATE this so much i should have managed this 10x better before starting tbh. im considering restarting routing at some point if this doesn't work out because honestly it doesn't look too good right now and im worried it wont work.can
 ![image name](images/usbdiff11th.png)
