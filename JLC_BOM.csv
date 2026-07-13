@@ -12,5 +12,6 @@ Standard PCBA Price,SMT Assembly,1.62
 Standard PCBA Price,Packaging Fee,0.49
 Standard PCBA Price,Subtotal,89.64
 Build Time,PCB (24 hours),0.00
-Build Time,Assembly (3-4 days) [selected],0.00
-Build Time,Assembly (2-3 days) [alternative],49.26
+Build Time,Assembly (3-4 days),0.00
+Msc.,Shipping,16.11
+
