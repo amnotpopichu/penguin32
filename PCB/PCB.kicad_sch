@@ -948,197 +948,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda:0201CG1R5C500NT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0201CG1R5C500NT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0201"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1-5pF-1R5-0-25pF-50V_C50389.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1.5pF (1R5) ±0.25pF 50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FH(风华)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "0201CG1R5C500NT"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C50389"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0201CG1R5C500NT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda:0402CG220J500NT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3900,13 +3709,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda:PESD4V0Z1BSFYL"
+		(symbol "easyeda:GJM1555C1H1R5BB01D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
+			(property "Reference" "C"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3916,7 +3725,7 @@
 					)
 				)
 			)
-			(property "Value" "PESD4V0Z1BSFYL"
+			(property "Value" "GJM1555C1H1R5BB01D"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3926,7 +3735,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:DSN0603-2_L0.7-W0.3-P0.40-BI"
+			(property "Footprint" "easyeda2kicad:C0402"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3937,7 +3746,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/presales_Nexperia-PESD4V0Z1BSFYL_C552547.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GJM1555C1H1R5BB01D_1-5pF-1R5-0-1pF-50V_C76900.html"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3948,7 +3757,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "1.5pF (1R5) ±0.1pF 50V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3959,7 +3768,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Nexperia(安世)"
+			(property "Manufacturer" "muRata(村田)"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3970,7 +3779,7 @@
 					)
 				)
 			)
-			(property "MPN" "PESD4V0Z1BSFYL"
+			(property "MPN" "GJM1555C1H1R5BB01D"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3981,7 +3790,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C552547"
+			(property "LCSC Part" "C76900"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3992,7 +3801,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ESD Protection Devices"
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4003,10 +3812,10 @@
 					)
 				)
 			)
-			(symbol "PESD4V0Z1BSFYL_0_1"
+			(symbol "GJM1555C1H1R5BB01D_0_1"
 				(polyline
 					(pts
-						(xy -3.05 1.78) (xy -3.05 -1.52) (xy -2.54 -1.52)
+						(xy -0.51 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -4018,19 +3827,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.51 1.78) (xy -3.05 0) (xy -0.51 -1.78) (xy -0.51 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy -0.51 0)
+						(xy -0.51 -2.03) (xy -0.51 2.03)
 					)
 					(stroke
 						(width 0)
@@ -4042,19 +3839,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.51 -1.78) (xy 3.05 0) (xy 0.51 1.78) (xy 0.51 -1.78)
+						(xy 0.51 2.03) (xy 0.51 -2.03)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 3.05 1.52) (xy 3.05 -1.78) (xy 2.54 -1.78)
+						(xy 2.54 0) (xy 0.51 0)
 					)
 					(stroke
 						(width 0)
@@ -4103,13 +3900,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda:SDCL0603Q2N0ST02"
+		(symbol "easyeda:H5VU10BB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
+			(property "Reference" "U"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4119,7 +3916,7 @@
 					)
 				)
 			)
-			(property "Value" "SDCL0603Q2N0ST02"
+			(property "Value" "H5VU10BB"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4129,7 +3926,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:L0201"
+			(property "Footprint" "easyeda2kicad:DFN1006-2L-BI"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4140,7 +3937,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2nH-0-3nH_C42142.html"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C20615786.pdf"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4151,7 +3948,7 @@
 					)
 				)
 			)
-			(property "Description" "2nH ±0.3nH"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4162,7 +3959,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Sunlord(顺络)"
+			(property "Manufacturer" "R+O(宏嘉诚)"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4173,7 +3970,7 @@
 					)
 				)
 			)
-			(property "MPN" "SDCL0603Q2N0ST02"
+			(property "MPN" "H5VU10BB"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4184,7 +3981,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C42142"
+			(property "LCSC Part" "C20615786"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4195,7 +3992,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Inductors/Coils/Transformers"
+			(property "ki_keywords" "TVS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4206,11 +4003,35 @@
 					)
 				)
 			)
-			(symbol "SDCL0603Q2N0ST02_0_1"
-				(arc
-					(start -4.29 0.02)
-					(mid -3.28 0.9559)
-					(end -2.27 0.02)
+			(symbol "H5VU10BB_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.52) (xy 0 0) (xy -2.54 -1.52) (xy -2.54 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.52) (xy -0.51 2.03) (xy 0 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.52) (xy 0 1.52)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4219,45 +4040,33 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -2.13 0.02)
-					(mid -1.12 0.9559)
-					(end -0.11 0.02)
+				(polyline
+					(pts
+						(xy 0 -1.52) (xy 0.51 -2.03) (xy 0 -1.52)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(arc
-					(start 0.02 0.02)
-					(mid 1.03 0.9559)
-					(end 2.04 0.02)
+				(polyline
+					(pts
+						(xy 2.54 1.52) (xy 0 0) (xy 2.54 -1.52) (xy 2.54 1.52)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.21 0.02)
-					(mid 3.22 0.9734)
-					(end 4.23 0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin unspecified line
 					(at -5.08 0 0)
-					(length 1.27)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -4275,7 +4084,7 @@
 				)
 				(pin unspecified line
 					(at 5.08 0 180)
-					(length 1.27)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -4398,6 +4207,197 @@
 				)
 			)
 			(symbol "SDCL1005C24NJTDF_0_1"
+				(arc
+					(start -4.29 0.02)
+					(mid -3.28 0.9559)
+					(end -2.27 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.13 0.02)
+					(mid -1.12 0.9559)
+					(end -0.11 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.02 0.02)
+					(mid 1.03 0.9559)
+					(end 2.04 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.21 0.02)
+					(mid 3.22 0.9734)
+					(end 4.23 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda:SDCL1005C2N0STDF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SDCL1005C2N0STDF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:L0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2-0nH-0-3nH_C43365.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.0nH ±0.3nH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Sunlord(顺络)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SDCL1005C2N0STDF"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C43365"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Inductors/Coils/Transformers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SDCL1005C2N0STDF_0_1"
 				(arc
 					(start -4.29 0.02)
 					(mid -3.28 0.9559)
@@ -6044,12 +6044,6 @@
 		(uuid "8887d534-1341-4b9c-8497-7857009e1664")
 	)
 	(junction
-		(at 82.55 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0297a90b-9efe-48bb-a834-9209190cdafc")
-	)
-	(junction
 		(at 48.26 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6092,12 +6086,6 @@
 		(uuid "33b595bb-391f-41ea-a343-6c0c96c899aa")
 	)
 	(junction
-		(at 113.03 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b6e3223-ac98-442b-828d-6536da1671c4")
-	)
-	(junction
 		(at 99.06 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6120,12 +6108,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b786ef3-f103-4d71-b354-3865a84c6e58")
-	)
-	(junction
-		(at 80.01 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "658d6d31-a50f-4d24-82ec-720cbb5fff50")
 	)
 	(junction
 		(at 48.26 175.26)
@@ -6164,22 +6146,16 @@
 		(uuid "9bf23937-94ef-42b8-a523-d6045468d273")
 	)
 	(junction
-		(at 130.81 36.83)
+		(at 85.09 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2709bd0-b79b-4e4c-bb78-d0d29b24f7ee")
+		(uuid "a7cd2e07-cacd-414a-8b2e-373387829b43")
 	)
 	(junction
 		(at 88.9 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad161d9c-6cc0-48c4-bd48-095841d339d1")
-	)
-	(junction
-		(at 102.87 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adea0f31-4fc4-423d-96df-f5f59001570a")
 	)
 	(junction
 		(at 139.7 45.72)
@@ -6204,6 +6180,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c026911b-ae15-42f3-a76e-09902aff5889")
+	)
+	(junction
+		(at 106.68 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5bda87d-5b75-4b87-b6ea-b5f2cc539aff")
+	)
+	(junction
+		(at 115.57 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6193b97-0b74-405b-b935-9485ba5d8d11")
 	)
 	(junction
 		(at 204.47 68.58)
@@ -6236,6 +6224,12 @@
 		(uuid "d77929dc-cd4f-4db1-9a38-c757673b0722")
 	)
 	(junction
+		(at 132.08 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7ba3e37-a92f-4c0e-865b-a5c9e607ae80")
+	)
+	(junction
 		(at 226.06 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6246,6 +6240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8f55d5c-0eb6-42dd-9877-a25f6f92162c")
+	)
+	(junction
+		(at 80.01 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebc4e810-c160-4ca1-9bdb-16f3506d6969")
 	)
 	(junction
 		(at 33.02 91.44)
@@ -6385,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 36.83) (xy 132.08 41.91)
+			(xy 132.08 36.83) (xy 132.08 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6415,7 +6415,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 35.56) (xy 102.87 35.56)
+			(xy 99.06 35.56) (xy 106.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6485,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 36.83) (xy 130.81 36.83)
+			(xy 128.27 36.83) (xy 132.08 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6522,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "22af3709-692c-4462-a8ae-807d55371773")
-	)
-	(wire
-		(pts
-			(xy 80.01 44.45) (xy 80.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2471c0f6-60ca-4a5e-98ce-2084564f9a77")
 	)
 	(wire
 		(pts
@@ -6592,6 +6582,16 @@
 			(type default)
 		)
 		(uuid "2d69bec3-1ff5-4781-8cab-418f90ebdbca")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 88.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eacce89-af34-4d48-a7bf-870a8e9331ee")
 	)
 	(wire
 		(pts
@@ -6795,7 +6795,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 35.56) (xy 82.55 35.56)
+			(xy 80.01 35.56) (xy 85.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7035,6 +7035,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 35.56) (xy 115.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9ffd64-bf08-4bc7-9cd6-c4a6789070b5")
+	)
+	(wire
+		(pts
 			(xy 115.57 36.83) (xy 115.57 35.56)
 		)
 		(stroke
@@ -7055,16 +7065,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 36.83) (xy 132.08 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806305a7-06da-40b3-853b-00b8d66a796d")
-	)
-	(wire
-		(pts
 			(xy 45.72 175.26) (xy 45.72 167.64)
 		)
 		(stroke
@@ -7072,16 +7072,6 @@
 			(type default)
 		)
 		(uuid "842e0e53-66b4-4b20-a405-3de1cc49a3bf")
-	)
-	(wire
-		(pts
-			(xy 102.87 35.56) (xy 113.03 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85df3ba1-caaf-4e54-afb4-748456b31dbf")
 	)
 	(wire
 		(pts
@@ -7285,6 +7275,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 38.1) (xy 132.08 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef2abd6-ba81-4032-9a46-7b54aea7b23c")
+	)
+	(wire
+		(pts
 			(xy 83.82 76.2) (xy 99.06 76.2)
 		)
 		(stroke
@@ -7435,16 +7435,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 35.56) (xy 115.57 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d74f1315-ce25-46f3-84b8-9f9c334e214f")
-	)
-	(wire
-		(pts
 			(xy 198.12 111.76) (xy 198.12 110.49)
 		)
 		(stroke
@@ -7475,13 +7465,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 35.56) (xy 88.9 35.56)
+			(xy 80.01 44.45) (xy 80.01 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5bd9f42-1881-4865-905a-429b98c3e85f")
+		(uuid "dd37269a-872d-4f4f-b138-4faa44329838")
 	)
 	(wire
 		(pts
@@ -8939,121 +8929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda:0201CG1R5C500NT")
-		(at 113.03 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0508f252-793e-4dd3-a09d-fc4c99e4189d")
-		(property "Reference" "C6"
-			(at 116.84 30.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0201CG1R5C500NT"
-			(at 116.84 33.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 120.65 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1-5pF-1R5-0-25pF-50V_C50389.html"
-			(at 123.19 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.5pF (1R5) ±0.25pF 50V"
-			(at 113.03 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 125.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0201CG1R5C500NT"
-			(at 128.27 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C50389"
-			(at 130.81 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1debd319-6116-47d9-902a-ee2e1bbcc069")
-		)
-		(pin "1"
-			(uuid "4f04aace-c082-4eea-9cd4-fcca5017c075")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 240.03 60.96 270)
 		(mirror x)
@@ -9128,120 +9003,6 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda:SDCL0603Q2N0ST02")
-		(at 123.19 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "065fa1d0-719a-4e9f-a523-6692d9d95b3e")
-		(property "Reference" "L1"
-			(at 123.22 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDCL0603Q2N0ST02"
-			(at 116.87 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:L0201"
-			(at 123.19 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2nH-0-3nH_C42142.html"
-			(at 123.19 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2nH ±0.3nH"
-			(at 123.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sunlord(顺络)"
-			(at 123.19 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SDCL0603Q2N0ST02"
-			(at 123.19 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C42142"
-			(at 123.19 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "80ecd3b7-b214-461f-b326-cb51d50c0776")
-		)
-		(pin "1"
-			(uuid "38fea99f-113e-40a3-a518-3fc34e1ba701")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9481,7 +9242,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 27.94 180)
+		(at 115.57 25.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9492,7 +9253,7 @@
 		(fields_autoplaced yes)
 		(uuid "12598b98-e4dc-4149-9758-e52fa389faae")
 		(property "Reference" "#PWR047"
-			(at 113.03 21.59 0)
+			(at 115.57 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9503,7 +9264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 22.86 0)
+			(at 115.57 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9513,7 +9274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 27.94 0)
+			(at 115.57 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9524,7 +9285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 27.94 0)
+			(at 115.57 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +9296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 27.94 0)
+			(at 115.57 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9962,6 +9723,7 @@
 		(uuid "16a37286-11f8-45d8-b8c5-17ed4cf2e52a")
 		(property "Reference" "C3"
 			(at 102.87 69.8499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9973,6 +9735,7 @@
 		)
 		(property "Value" "CL05B104KO5NNNC"
 			(at 102.87 72.3899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10144,7 +9907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 27.94 180)
+		(at 106.68 25.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10155,7 +9918,7 @@
 		(fields_autoplaced yes)
 		(uuid "18825e4c-9cbb-48cd-98bb-4eacd50af74b")
 		(property "Reference" "#PWR048"
-			(at 102.87 21.59 0)
+			(at 106.68 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10166,7 +9929,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 22.86 0)
+			(at 106.68 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10176,7 +9939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 27.94 0)
+			(at 106.68 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10187,7 +9950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 27.94 0)
+			(at 106.68 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +9961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 27.94 0)
+			(at 106.68 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10695,8 +10458,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda:SDCL0603Q2N0ST02")
-		(at 93.98 35.56 180)
+		(lib_id "easyeda:SDCL1005C2N0STDF")
+		(at 105.41 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10705,9 +10468,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "230b3a9f-005b-4575-861e-fcc9804af1f4")
-		(property "Reference" "L4"
-			(at 94.01 30.48 0)
+		(uuid "243502c1-93a6-44e3-9eb1-9cb04056ec25")
+		(property "Reference" "L1"
+			(at 105.44 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDCL1005C2N0STDF"
+			(at 105.44 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:L0402"
+			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,8 +10500,8 @@
 				)
 			)
 		)
-		(property "Value" "SDCL0603Q2N0ST02"
-			(at 94.01 33.02 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2-0nH-0-3nH_C43365.html"
+			(at 105.41 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10728,30 +10511,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:L0201"
-			(at 93.98 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2nH-0-3nH_C42142.html"
-			(at 93.98 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2nH ±0.3nH"
-			(at 93.98 35.56 0)
+		(property "Description" "2.0nH ±0.3nH"
+			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +10523,7 @@
 			)
 		)
 		(property "Manufacturer" "Sunlord(顺络)"
-			(at 93.98 22.86 0)
+			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10772,8 +10533,8 @@
 				)
 			)
 		)
-		(property "MPN" "SDCL0603Q2N0ST02"
-			(at 93.98 20.32 0)
+		(property "MPN" "SDCL1005C2N0STDF"
+			(at 105.41 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10783,8 +10544,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C42142"
-			(at 93.98 17.78 0)
+		(property "LCSC Part" "C43365"
+			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,17 +10554,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "8f200e1a-351f-4301-b1d9-294fd16273e5")
 		)
 		(pin "1"
-			(uuid "f60d54f1-609e-4044-9a19-0ce5d76a109b")
+			(uuid "5fdbd6c7-c0f8-4131-a339-b99a969aab08")
+		)
+		(pin "2"
+			(uuid "39516982-2fdd-4114-9edc-f956699bc53f")
 		)
 		(instances
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "L4")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -10883,6 +10644,122 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:GJM1555C1H1R5BB01D")
+		(at 85.09 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27c1cc93-e79f-40ce-9a1c-8ced3b7dcd2d")
+		(property "Reference" "C20"
+			(at 88.9 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GJM1555C1H1R5BB01D"
+			(at 88.9 31.7499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GJM1555C1H1R5BB01D_1-5pF-1R5-0-1pF-50V_C76900.html"
+			(at 95.25 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5pF (1R5) ±0.1pF 50V"
+			(at 85.09 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 97.79 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H1R5BB01D"
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C76900"
+			(at 102.87 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffe79bdb-41d2-4350-8492-c956d619dcbb")
+		)
+		(pin "2"
+			(uuid "c1532368-d391-41f5-bc1f-58d4ba471f52")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11972,6 +11849,121 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:GJM1555C1H1R5BB01D")
+		(at 106.68 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47647e90-ca41-4beb-8825-aec75ad24ab4")
+		(property "Reference" "C21"
+			(at 110.49 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GJM1555C1H1R5BB01D"
+			(at 110.49 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 114.3 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GJM1555C1H1R5BB01D_1-5pF-1R5-0-1pF-50V_C76900.html"
+			(at 116.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5pF (1R5) ±0.1pF 50V"
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 119.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H1R5BB01D"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C76900"
+			(at 124.46 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdb243d9-6f81-4eba-ac37-14a87cddbf0a")
+		)
+		(pin "2"
+			(uuid "c634d480-7021-4d9a-8437-807ee361441b")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda:YZA-056-4.3")
 		(at 31.75 55.88 270)
 		(unit 1)
@@ -12394,6 +12386,7 @@
 		)
 		(property "Value" "CL10A105KB8NNNC"
 			(at 87.63 72.3899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12672,6 +12665,234 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:H5VU10BB")
+		(at 74.93 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5df6f7d5-5c32-41d4-b357-8825dfc9755e")
+		(property "Reference" "U2"
+			(at 74.93 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H5VU10BB"
+			(at 74.93 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:DFN1006-2L-BI"
+			(at 74.93 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20615786.pdf"
+			(at 74.93 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 74.93 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "H5VU10BB"
+			(at 74.93 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20615786"
+			(at 74.93 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83df7600-f2e9-4344-807d-33bcfaa201c2")
+		)
+		(pin "1"
+			(uuid "15d5ddad-5f9b-4e80-80d4-2b09402c6f36")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:GJM1555C1H1R5BB01D")
+		(at 115.57 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "609af90a-4784-460c-9b49-0b269260b101")
+		(property "Reference" "C22"
+			(at 119.38 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GJM1555C1H1R5BB01D"
+			(at 119.38 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 123.19 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GJM1555C1H1R5BB01D_1-5pF-1R5-0-1pF-50V_C76900.html"
+			(at 125.73 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5pF (1R5) ±0.1pF 50V"
+			(at 115.57 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H1R5BB01D"
+			(at 130.81 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C76900"
+			(at 133.35 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "362c0277-2d59-47fc-8d94-f80af240180d")
+		)
+		(pin "2"
+			(uuid "bcd7dc36-d90a-4a47-a05c-026cdefcd410")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -12992,6 +13213,119 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:SDCL1005C2N0STDF")
+		(at 93.98 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "697df3a4-7656-41db-8061-180de0a4e96f")
+		(property "Reference" "L4"
+			(at 94.01 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDCL1005C2N0STDF"
+			(at 94.01 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:L0402"
+			(at 93.98 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2-0nH-0-3nH_C43365.html"
+			(at 93.98 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.0nH ±0.3nH"
+			(at 93.98 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunlord(顺络)"
+			(at 93.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SDCL1005C2N0STDF"
+			(at 93.98 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C43365"
+			(at 93.98 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8137f28-abe1-4975-865b-4e9fe7918584")
+		)
+		(pin "2"
+			(uuid "2678546f-c987-4b8a-a670-3b0e7b103d74")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 149.86 180)
 		(unit 1)
@@ -13064,119 +13398,6 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda:SDCL0603Q2N0ST02")
-		(at 105.41 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d9fce33-a394-4f79-b308-c256fa5ef59e")
-		(property "Reference" "L2"
-			(at 105.44 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDCL0603Q2N0ST02"
-			(at 105.44 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:L0201"
-			(at 105.41 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2nH-0-3nH_C42142.html"
-			(at 105.41 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2nH ±0.3nH"
-			(at 105.41 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sunlord(顺络)"
-			(at 105.41 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SDCL0603Q2N0ST02"
-			(at 105.41 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C42142"
-			(at 105.41 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "304d5037-e53a-4020-8f31-cc94f2c0c27e")
-		)
-		(pin "2"
-			(uuid "70e108ff-7c0d-48aa-a91d-9e779feb58a9")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -13491,121 +13712,6 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda:0201CG1R5C500NT")
-		(at 130.81 33.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "799be410-9a11-4d2e-b32c-a3355141f556")
-		(property "Reference" "C7"
-			(at 134.62 31.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0201CG1R5C500NT"
-			(at 134.62 34.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 138.43 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1-5pF-1R5-0-25pF-50V_C50389.html"
-			(at 140.97 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.5pF (1R5) ±0.25pF 50V"
-			(at 130.81 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 143.51 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0201CG1R5C500NT"
-			(at 146.05 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C50389"
-			(at 148.59 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b0af892-2b8b-408d-9612-ff2be9c8f034")
-		)
-		(pin "1"
-			(uuid "c998f43b-fbbb-4a15-bcca-ec056313255b")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14345,119 +14451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda:PESD4V0Z1BSFYL")
-		(at 74.93 44.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8765b225-def8-466c-bdb9-1a2ddde55bd2")
-		(property "Reference" "D1"
-			(at 74.93 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PESD4V0Z1BSFYL"
-			(at 74.93 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:DSN0603-2_L0.7-W0.3-P0.40-BI"
-			(at 74.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/presales_Nexperia-PESD4V0Z1BSFYL_C552547.html"
-			(at 74.93 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 74.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PESD4V0Z1BSFYL"
-			(at 74.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C552547"
-			(at 74.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5dd30b02-1374-449c-88d5-5c7ef549fdc9")
-		)
-		(pin "1"
-			(uuid "05dd8c01-6811-49f8-a4af-edf22e7cde07")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 201.93 63.5 90)
 		(unit 1)
@@ -14530,6 +14523,119 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:SDCL1005C2N0STDF")
+		(at 123.19 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90f6fffb-a23c-4a0e-997c-dab2d69323ef")
+		(property "Reference" "L2"
+			(at 123.22 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDCL1005C2N0STDF"
+			(at 123.22 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:L0402"
+			(at 123.19 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/HF-Inductors_2-0nH-0-3nH_C43365.html"
+			(at 123.19 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.0nH ±0.3nH"
+			(at 123.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunlord(顺络)"
+			(at 123.19 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SDCL1005C2N0STDF"
+			(at 123.19 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C43365"
+			(at 123.19 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a59a0c7-091b-4a8a-ba53-7dfb56b860ef")
+		)
+		(pin "2"
+			(uuid "96e8cc11-2624-43c2-a823-5453ffb3edbd")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -15003,6 +15109,121 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:GJM1555C1H1R5BB01D")
+		(at 132.08 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d2ee272-0697-4b1b-94aa-8d91a36a562d")
+		(property "Reference" "C23"
+			(at 135.89 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GJM1555C1H1R5BB01D"
+			(at 135.89 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 139.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GJM1555C1H1R5BB01D_1-5pF-1R5-0-1pF-50V_C76900.html"
+			(at 142.24 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5pF (1R5) ±0.1pF 50V"
+			(at 132.08 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 144.78 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H1R5BB01D"
+			(at 147.32 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C76900"
+			(at 149.86 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09764c8e-c0ae-4046-bc5b-bf6de1e4468a")
+		)
+		(pin "2"
+			(uuid "41d77031-c8ef-4295-a0f5-e99385e284bb")
+		)
+		(instances
+			(project "PCB"
+				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16484,7 +16705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 29.21 180)
+		(at 132.08 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16495,7 +16716,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce595b27-f519-4952-9935-a9363f176ecf")
 		(property "Reference" "#PWR046"
-			(at 130.81 22.86 0)
+			(at 132.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16506,7 +16727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 24.13 0)
+			(at 132.08 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16516,7 +16737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 29.21 0)
+			(at 132.08 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16527,7 +16748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 29.21 0)
+			(at 132.08 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16538,7 +16759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 29.21 0)
+			(at 132.08 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17189,7 +17410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 27.94 180)
+		(at 85.09 25.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17200,7 +17421,7 @@
 		(fields_autoplaced yes)
 		(uuid "da9722b2-152d-48d3-8996-4cfbd5985b53")
 		(property "Reference" "#PWR049"
-			(at 82.55 21.59 0)
+			(at 85.09 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17211,7 +17432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 22.86 0)
+			(at 85.09 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17221,7 +17442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 27.94 0)
+			(at 85.09 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17232,7 +17453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 27.94 0)
+			(at 85.09 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17243,7 +17464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 27.94 0)
+			(at 85.09 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17374,121 +17595,6 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda:0201CG1R5C500NT")
-		(at 102.87 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8a74fbb-ea79-460b-a6dd-7270af65a97b")
-		(property "Reference" "C9"
-			(at 106.68 30.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0201CG1R5C500NT"
-			(at 106.68 33.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 110.49 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1-5pF-1R5-0-25pF-50V_C50389.html"
-			(at 113.03 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.5pF (1R5) ±0.25pF 50V"
-			(at 102.87 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 115.57 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0201CG1R5C500NT"
-			(at 118.11 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C50389"
-			(at 120.65 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "93d34294-2adf-4ece-a006-fa20551f622d")
-		)
-		(pin "1"
-			(uuid "7af8412c-a15e-4b62-aee4-8b22f4755403")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17875,121 +17981,6 @@
 			(project "PCB"
 				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda:0201CG1R5C500NT")
-		(at 82.55 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc5c9fcd-c1c0-48ec-aa63-3fb295f24cff")
-		(property "Reference" "C12"
-			(at 86.36 30.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0201CG1R5C500NT"
-			(at 86.36 33.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0201"
-			(at 90.17 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1-5pF-1R5-0-25pF-50V_C50389.html"
-			(at 92.71 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.5pF (1R5) ±0.25pF 50V"
-			(at 82.55 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 95.25 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0201CG1R5C500NT"
-			(at 97.79 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C50389"
-			(at 100.33 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70e9c689-4eb0-42b3-9b28-cd509d9a435c")
-		)
-		(pin "1"
-			(uuid "d0e51677-72b2-4e60-b7a7-a5a4b9d7721b")
-		)
-		(instances
-			(project "PCB"
-				(path "/2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
-					(reference "C12")
 					(unit 1)
 				)
 			)

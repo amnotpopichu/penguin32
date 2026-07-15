@@ -3,6 +3,17 @@ title: "Penguin32"
 author: "Leo Hsia"
 description: "Penguin32 is a esp32 devboard but with a big penguin on it. why penguin? why not?"
 ---
+# Jul 14th: I DID IT
+after emaliing jlcpcb i finally got a 15 dollar coupon to stay under my limit!! LETS GOOOO. order is now placed
+![image name](images/order.png)
+**Total time spent: 0.5 hours**
+
+
+# Jul 13th: PCBA BOM
+soo erm jlc decided they were going to slap on 60 dollars in hidden fees if i dont redo some parts (because im stupid and did small foot prints and that needs standard pcba instead of economic). went back and sourced a diff diode because of stock. also tried their customer support to get the review, reviewed on a second platform after being blocked on trust pilot (im trying again). tldr i just need 12 extra dollars. (or a 12 dollar discount) because gdsl is mean
+
+
+**Total time spent: 0.5 hours**
 
 # Jul 12th: rewire
 I rerouted everything three times. i wish i was joking. anywyas some of the more techical and fun stuff. 1. rerouted because i changed some stuff where i was deciding how my headers should work (to optimize for placement) 2. changed because i optimized BOM. i had something that needed 2k capacitaors minmium order so i changed it to something else, and then in the process rerouted. 3. i just wasnt getting it done. i think with my past few attempts it just wasnt working, so i rerouted everything. All in all, i think there are a few things i learned 1. i should use a second plane next time, ie a 3v3 pwr plane instead of manually routing everything 2. sometimes i need to mess with footprints. i had to change some of the thermal pins to actaully route to ground for it to work, and then also had to learn about net ties (to stop kicad from yelling at me). didnt solve it, so i also learned about 4. ignoring drc when you are 100% sure you are right, and adding a comment. Also added some silkscreen stuff With a penguin and a cool hatck club flag.

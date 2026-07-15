@@ -70,14 +70,6 @@
           "footprint"
         ],
         [
-          "hole_clearance|86073852|170157606|b567983f-83b7-427b-ba53-7c26e38f5efd|a7757957-be52-404b-8a0d-d9f560c2c7a0",
-          ""
-        ],
-        [
-          "hole_clearance|91473622|170157428|959b0c6c-6e74-47b2-b801-b88d70ecadb6|47a448a5-961a-4392-90e1-9695f7fca911",
-          ""
-        ],
-        [
           "shorting_items|81838750|134135000|f3c4b813-1cb5-4e09-a2c6-6019ca6fe66e|fe74dff5-7053-49f7-a986-03c8791976de",
           "antenna"
         ],
@@ -727,7 +719,7 @@
         "uuid": "2c8f3f2f-994f-4a1b-810f-4b7e8b1206de"
       }
     ],
-    "used_designators": "C1,C6-7,C9,C12,C17-19",
+    "used_designators": "U2,L1-2,L4-5,C1,C6-7,C9,C12,C17-23",
     "variants": []
   },
   "sheets": [
