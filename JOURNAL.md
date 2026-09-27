@@ -3,6 +3,9 @@ title: "Penguin32"
 author: "Leo Hsia"
 description: "Penguin32 is a esp32 devboard but with a big penguin on it. why penguin? why not?"
 ---
+# September 8th
+long story short they arrived -- i didnt journal, but there were issues with it heating up without powering on. eventually i grabbed a mulitimeter and tested it, finding the LDO only returned 0.5v. After asking around Ace6rings helped out a lot, and noticed I had forgotten some decop capacitators next to the LDO. very sad that i wasted so much, but the lesson is to never forget to read ldo datasheets (i ignorantly assumed ldos didnt need decoup caps). this project is kinda chopped now but next devboard WILL not have these mistakes
+
 # Jul 14th: I DID IT
 after emaliing jlcpcb i finally got a 15 dollar coupon to stay under my limit!! LETS GOOOO. order is now placed
 ![image name](images/order.png)
